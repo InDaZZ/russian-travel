@@ -1,0 +1,25 @@
+.body {
+    background-color: #2A2C2F;
+    font-family: 'Inter';
+    font-style: normal;
+    max-width: 1280px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1210px) {
+    .body {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 955px) {
+    .body {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 75px) {
+    .body {
+        max-width: 320px;
+    }
+}

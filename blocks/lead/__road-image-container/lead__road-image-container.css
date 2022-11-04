@@ -1,0 +1,9 @@
+.lead__road-image-container {
+    background-image: url(../../../image/Group\ 4.png);
+    max-width: 886px;
+    min-height: 225px;
+    border: 1px solid;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 128px auto 0;
+}

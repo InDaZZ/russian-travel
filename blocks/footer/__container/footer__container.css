@@ -1,0 +1,19 @@
+.footer__container {
+    max-width: 1184px;
+    max-height: 18px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 955px) {
+    .footer__container {
+        max-width: 720px; 
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .footer__container {
+        flex-direction: column;
+    }
+}

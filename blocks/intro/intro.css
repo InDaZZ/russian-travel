@@ -1,0 +1,23 @@
+.intro {
+    padding-left: 148px;
+    max-width: 690px;
+    padding-top: 92px;
+}
+
+@media screen and (max-width: 1210px) {
+    .intro {
+        padding-left: 48px;
+    }
+}
+
+@media screen and (max-width: 955px) {
+    .intro {
+        padding: 88px 24px 0;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .intro {
+        padding: 64px 16px 0;
+    }
+}
