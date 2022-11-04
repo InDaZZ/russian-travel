@@ -1,4 +1,4 @@
-.place__container {
+.places__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr auto;
@@ -9,12 +9,12 @@
     margin-top: 80px;
 }
 
-.place__container:nth-child(1) {
+.places__container:nth-child(1) {
     margin-top: 0;
 }
 
 @media screen and (max-width: 1210px) {
-    .place__container {
+    .places__container {
         max-width: 928px;
         min-height: 640px;
         grid-template-columns: 1fr 1fr;
@@ -23,7 +23,7 @@
 }
 
 @media screen and (max-width: 955px) {
-    .place__container {
+    .places__container {
         margin-top: 73px;
         max-width: 720px;
         min-height: 581px;
@@ -33,7 +33,7 @@
 }
 
 @media screen and (max-width: 655px) {
-    .place__container {
+    .places__container {
         margin-top: 50px;
         display: flex;
         flex-direction: column;
