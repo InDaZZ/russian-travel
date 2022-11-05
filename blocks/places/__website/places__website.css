@@ -3,11 +3,20 @@
     flex-direction: column;
     justify-content: space-between;
     align-self: end;
+    margin-bottom: 48px;
+}
+
+@media screen and (max-width: 1210px) {
+    .places__website {
+        margin-bottom: 48px;
+    }
 }
 
 @media screen and (max-width: 655px) {
     .places__website {
-        align-self: flex-start;
-        padding-left: 16px;
+        padding: 0 16px 0;
+        grid-row: 2/3;
+        margin: 0 0 22px;
+
     }
 }
